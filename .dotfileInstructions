@@ -1,0 +1,12 @@
+# To create a Bare git repository
+
+
+git init --bare $HOME/.cfg
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+config config --local status.showUntrackedFiles no
+echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+
+# example
+git add ~/.bashrc
+git commit -m "Added BashRC"
+git push
