@@ -2,7 +2,7 @@
 
 # Simple CLI for shell-color-scripts
 
-DIR_COLORSCRIPTS="/opt/shell-color-scripts/colorscripts"
+DIR_COLORSCRIPTS="/home/jacob/.local/bin/shell-color-scripts/colorscripts"
 LS_CMD="$(command -v ls)"
 fmt_help="  %-20s\t%-54s\n"
 list_colorscripts="$($LS_CMD "${DIR_COLORSCRIPTS}" | cut -d ' ' -f 1 | nl)"
