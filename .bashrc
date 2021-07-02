@@ -6,8 +6,8 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+# MY ALIASES
 alias sudo='sudo '
-alias shutdown='sudo shutdown -h now'
 alias xi='xbps-install'
 alias xq='xbps-query -Rs'
 
@@ -15,6 +15,8 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias vim='nvim -u ~/.vimrc '
 alias neofetch='neofetch --ascii_colors 10 9'
+
+alias xclip='xclip -selection clipboard '
 
 # colors
 
